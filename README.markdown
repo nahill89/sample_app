@@ -1,0 +1,1 @@
+#Ruby on Rails Tutorial: sample application for [*Ruby on Rails Tutorial: Learn Rails By Exmple*] <http://railstutorial.org/) by [Michael Hartle](http://michaelhartle.com)
