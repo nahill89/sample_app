@@ -124,8 +124,8 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 3.2.9)
-  rspec (= 2.0.0)
-  rspec-rails (= 2.0.0)
+  rspec
+  rspec-rails
   sass-rails (~> 3.2.3)
   sqlite3-ruby
   uglifier (>= 1.0.3)
