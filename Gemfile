@@ -7,6 +7,14 @@ gem 'rails', '3.2.9'
 group :development, :test do
 	gem 'sqlite3-ruby', :require => 'sqlite3'
 	gem 'webrat'
+	
+gem 'jquery-rails'
+
+gem 'ZenTest'
+gem 'autotest-rails'
+
+gem 'autotest-growl'
+
 end
 
 group :production, :staging do
@@ -26,13 +34,6 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
-
-gem 'jquery-rails'
-
-gem 'ZenTest'
-gem 'autotest-rails'
-
-gem 'autotest-growl'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
