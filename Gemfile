@@ -6,14 +6,17 @@ gem 'rails', '3.2.9'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development, :test do
 	gem 'sqlite3-ruby', :require => 'sqlite3'
-	gem 'webrat'
+	gem 'capybara', '1.1.2'
 	
 gem 'jquery-rails'
+gem 'spork'
 
 gem 'ZenTest'
 gem 'autotest-rails'
-
+gem 'rspec'
 gem 'autotest-growl'
+
+	gem 'rspec-rails'
 
 end
 
@@ -51,9 +54,6 @@ end
 # gem 'debugger'
 
 
-group :development do
-	gem 'rspec-rails'
-end
 
 group :test do
 	gem 'rspec'
